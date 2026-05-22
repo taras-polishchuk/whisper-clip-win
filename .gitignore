@@ -76,3 +76,6 @@ pyrightconfig.json
 
 # ─── macOS (if repo ever touches macOS) ──────────────────────────────────────
 .DS_Store
+
+# ──────────── VScode workspace settings ──────────────────────────────────────
+whisper-clip-win.code-workspace
