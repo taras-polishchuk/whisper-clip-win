@@ -1,0 +1,1 @@
+"""Worker namespace reserved for future QRunnable/QThread helpers."""

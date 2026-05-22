@@ -1,0 +1,78 @@
+# ─── Python ───────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist-info/
+pip-log.txt
+pip-delete-this-directory.txt
+.eggs/
+
+# ─── Virtual environments ─────────────────────────────────────────────────────
+.venv/
+venv/
+env/
+ENV/
+.Python
+
+# ─── PyInstaller build artefacts ──────────────────────────────────────────────
+# build/  — intermediate work directory created by PyInstaller
+build/
+# dist/   — onedir output (~400 MB of bundled binaries + source)
+dist/
+
+# ─── Installer output ─────────────────────────────────────────────────────────
+# Compiled setup executables are large binaries; publish via releases, not git
+release/*.exe
+release/*.zip
+
+# ─── Downloaded Whisper / ONNX models ─────────────────────────────────────────
+# Models are fetched at first run; never commit them
+models/
+model_cache/
+*.onnx
+*.bin
+*.safetensors
+*.ot
+
+# ─── Application logs & temp files ───────────────────────────────────────────
+logs/
+*.log
+*.tmp
+*.temp
+crash_*.txt
+
+# ─── Secrets / local config overrides ────────────────────────────────────────
+.env
+.env.*
+local_settings.py
+
+# ─── Windows OS noise ────────────────────────────────────────────────────────
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# ─── IDE / editor ────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ─── pytest / coverage ───────────────────────────────────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# ─── mypy / pyright type-check cache ─────────────────────────────────────────
+.mypy_cache/
+.pyright/
+pyrightconfig.json
+
+# ─── macOS (if repo ever touches macOS) ──────────────────────────────────────
+.DS_Store

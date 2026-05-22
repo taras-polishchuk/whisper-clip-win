@@ -1,0 +1,1 @@
+"""Whisper Clip Windows MVP."""
