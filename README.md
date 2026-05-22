@@ -148,5 +148,3 @@ Packaging DirectML adds the ONNX Runtime and transformer stack, so verify the pa
 - `tests/test_text.py` covers transcript normalization.
 - `tests/test_runtime_preferences.py` covers backend routing.
 - `tests/test_model_download_service.py` covers backend-specific model paths.
-
-The current environment here is not Windows, so the tray, hotkey, GPU, audio, and autopaste flows were scaffolded but not executed end-to-end.
